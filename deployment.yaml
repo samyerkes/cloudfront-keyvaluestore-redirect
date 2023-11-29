@@ -1,0 +1,8 @@
+template-file-path: cloudfront-kv-redirect.yaml
+parameters:
+  ProjectName: go-links
+  CloudFrontKeyValueStore: efea43e6-1e2c-4a0b-8c3a-5a547f3da45e
+  Domain: go.samyerkes.com
+  CertificateArn: >-
+    arn:aws:acm:us-east-1:823839615515:certificate/1439c8ac-79d2-4e5b-8b63-eea89171a50f
+tags: {}
